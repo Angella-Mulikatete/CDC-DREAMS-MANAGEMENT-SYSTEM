@@ -22,14 +22,14 @@ const Page = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <div className="hidden lg:flex justify-center items-center h-screen">
           <Image
-            src=""
+            src="/assets/images/www.jpg"
             height={500}
             width={500}
             alt="Image"
             className="w-full object-contain"
           />
         </div>
-        <div className="flex justify-center items-center h-screen flex-col w-full px-4 md:w-[500px]">
+        <div className="flex justify-center items-center h-screen flex-col w-full px-4 lg:w-[500px]">
           <div className="flex justify-start items-start mb-6 w-full flex-col">
             <Image src="" alt="logo" width={500} height={500} />
             <h1 className="text-cabbage font-bold text-2xl md:text-3xl mt-2">
