@@ -96,7 +96,8 @@ function Login() {
            email: authState.email,
            password: authState.password,
            redirect: true,
-           callbackUrl: "/",
+          //  callbackUrl: "/",
+           callbackUrl: "/user",
          });
 
          toast.success("Logged in successfully");
