@@ -15,8 +15,11 @@ export default async function Page() {
       </div>
       <div className="overflow-x-auto">
         <div className="mb-2 w-full text-right">
-          <Link href="/user/create" className="btn btn-primary">
-            Add new Girl
+          <Link
+            href="/user/create"
+            className="inline-block px-4 py-2 bg-blue-500 text-white font-semibold rounded hover:bg-blue-600 transition duration-300"
+          >
+            Enrol
           </Link>
         </div>
         <TableData />
